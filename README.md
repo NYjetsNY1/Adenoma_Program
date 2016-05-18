@@ -1,5 +1,4 @@
-Adenoma_Program
-Created to Automate the Monthly/Quarterly/Yearly Adenoma Report
+The Adenoma Program was created to automate the Monthly/Quarterly/Yearly Adenoma Report.
 
 This program was created for use by the Mohawk Valley Endoscopy Center.
 
@@ -9,7 +8,7 @@ The executable file (.exe) could not have been created without pyinstaller, so s
 
 Microsoft Excel is required. Python is not required to run the executable.
 
-This software is available freely, but will not work without the required MACRO file. The MACRO file was not uploaded to github. Some of the .bas files were also altered slightly to protect the Doctor's names. No patient data was uploaded. This software is only useful if you have the correct files that only the Mohawk Valley Endoscopy Center has access to.
+This software is available freely, but will not work without the required MACRO file. The MACRO file was not uploaded to github. Some of the .bas files were also altered slightly to protect the Doctors' names. No patient data was uploaded. This software is only useful if you have the correct files that only the Mohawk Valley Endoscopy Center has access to.
 
 Credits:
 https://www.python.org/
