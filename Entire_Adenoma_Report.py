@@ -1,8 +1,6 @@
 # Program Written By Benjamin Sklar
 # Adenoma Program
-# Version 1.0, very little error checking in this version
-# Very quickly created, style not the best. Will attempt to make the code better when there is more time
-# to work on this program. Functionally, program works flawlessly.
+# Version 1.0
 
 
 # necessary imports
@@ -58,6 +56,7 @@ def time_tracking_function():
         del xl
         time_track.configure(bg = "green")
 
+
 def adenoma_function():
     adenoma_filename = filedialog.askopenfilename()
     if (test_book(adenoma_filename) == TRUE):
@@ -86,7 +85,6 @@ def patient_total_function():
         patient_total.configure(bg="green")
 
 
-
 # main function
 root = Tk()
 w = 800 # width for the Tk root
@@ -113,7 +111,6 @@ adenoma_path = Button(height=6,
 patient_total = Button(height=10,
                       text='Step 1: Upload Total Patient File From Provation here. \n Step 2: Choose File Name and'
                            ' Location For # of Total Patients Output Text File.', font=labelfont, command=patient_total_function)
-
 
 
 up_mac.pack(fill=BOTH)
