@@ -51,7 +51,7 @@ Attribute Time_Tracking.VB_ProcData.VB_Invoke_Func = " \n14"
     Range("U4").Select
     ActiveCell.FormulaR1C1 = "=AVERAGEIF(C[-16],""N N"",C[-2]:C[-1])"
     Range("U5").Select
-    ActiveCell.FormulaR1C1 = "=AVERAGEIF(C[-16],"" P"",C[-2]:C[-1])"
+    ActiveCell.FormulaR1C1 = "=AVERAGEIF(C[-16],""P R"",C[-2]:C[-1])"
     Range("U6").Select
     ActiveCell.FormulaR1C1 = "=AVERAGEIF(C[-16],""B S"",C[-2]:C[-1])"
     Range("U7").Select
